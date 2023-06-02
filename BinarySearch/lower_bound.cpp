@@ -17,7 +17,7 @@ int main()
         int mid = low + (high-low)/2;
         
         if(arr[mid]>=num){
-            lb = high;
+            lb = mid;
             high=mid-1;
         }
         else
